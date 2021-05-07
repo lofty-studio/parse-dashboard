@@ -1,3 +1,9 @@
+> ### ⚠️ Heads up!
+> 
+> This is a fork of [parse-dashboard](https://github.com/parse-community/parse-dashboard) allowing us to [use Node v15](https://github.com/lofty-studio/platform/pull/256). We don’t want to maintain it in the long run, so we should switch back to the upstream version as soon as https://github.com/parse-community/parse-dashboard/issues/1633 is resolved.
+
+&nbsp;
+
 # Parse Dashboard
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/parse-community/parse-dashboard.svg)](https://greenkeeper.io/)
