@@ -18,7 +18,6 @@ import Config             from './Data/Config/Config.react';
 import Explorer           from './Analytics/Explorer/Explorer.react';
 import FourOhFour         from 'components/FourOhFour/FourOhFour.react';
 import GeneralSettings    from './Settings/GeneralSettings.react';
-import GraphQLConsole     from './Data/ApiConsole/GraphQLConsole.react';
 import history            from 'dashboard/history';
 import HostingSettings    from './Settings/HostingSettings.react';
 import Icon               from 'components/Icon/Icon.react';
@@ -257,11 +256,6 @@ export default class Dashboard extends React.Component {
         <Route path={ props.match.path + '/rest' } render={props => (
           <ApiConsole {...props}>
             <RestConsole />
-          </ApiConsole>
-        )} />
-        <Route path={ props.match.path + '/graphql' } render={props => (
-          <ApiConsole {...props}>
-            <GraphQLConsole />
           </ApiConsole>
         )} />
         <Route path={ props.match.path + '/js_console' } render={props => (
