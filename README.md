@@ -1,6 +1,13 @@
 > ### ⚠️ Heads up!
 > 
-> This is a fork of [parse-dashboard](https://github.com/parse-community/parse-dashboard) allowing us to [use Node v15](https://github.com/lofty-studio/platform/pull/256) by [removing the GraphQL playground](https://github.com/lofty-studio/parse-dashboard/commit/b1a1bf10d722168c22cae20e5f3eac5e03962204), [upgrading node-sass](https://github.com/lofty-studio/parse-dashboard/commit/c6f70bebe3943fc4596a35a8924c99dbfc98217b), and [upgrading sass-loader](https://github.com/lofty-studio/parse-dashboard/commit/fee3f8425e8b566937f8901f4d09d069493569e3). We don’t want to maintain the fork in the long run, and we probably want to bring back the playground – so we should switch back to the upstream version as soon as [parse-community/parse-dashboard#1633](https://github.com/parse-community/parse-dashboard/issues/1633) is resolved.
+> This is a fork of [parse-dashboard](https://github.com/parse-community/parse-dashboard) allowing us to [use Node v15](https://github.com/lofty-studio/platform/pull/256) [and Parse Server v4.4](https://github.com/parse-community/parse-dashboard/issues/1656) by:
+>
+> - [removing the GraphQL playground](https://github.com/lofty-studio/parse-dashboard/commit/b1a1bf10d722168c22cae20e5f3eac5e03962204),
+> - [upgrading node-sass](https://github.com/lofty-studio/parse-dashboard/commit/c6f70bebe3943fc4596a35a8924c99dbfc98217b),
+> - [upgrading sass-loader](https://github.com/lofty-studio/parse-dashboard/commit/fee3f8425e8b566937f8901f4d09d069493569e3), and
+> - [upgrading GraphQL](https://github.com/lofty-studio/parse-dashboard/commit/5e6e74e3e2baf0a6c138c1b44dc04c116a702ee9).
+>
+> We don’t want to maintain the fork in the long run, and we probably want to bring back the playground – so we should switch back to the upstream version as soon as [parse-community/parse-dashboard#1633](https://github.com/parse-community/parse-dashboard/issues/1633) is resolved.
 
 &nbsp;
 
