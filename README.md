@@ -8,6 +8,16 @@
 > - [upgrading GraphQL](https://github.com/lofty-studio/parse-dashboard/commit/5e6e74e3e2baf0a6c138c1b44dc04c116a702ee9).
 >
 > We don’t want to maintain the fork in the long run, and we probably want to bring back the playground – so we should switch back to the upstream version as soon as [parse-community/parse-dashboard#1633](https://github.com/parse-community/parse-dashboard/issues/1633) is resolved.
+>
+> ## Releasing the fork
+> ```sh
+> npm pack
+> ```
+> You should now have a file called something like `parse-dashboard-*.tgz` – the npm package in the form of a tarball. We’ll refer to it as `TARBALL_FILE`.
+> ```sh
+> aws s3 cp TARBALL_FILE \
+>   s3://lofty-releases/lofty-studio/parse-dashboard/$(git rev-parse HEAD).tgz
+> ```
 
 &nbsp;
 
